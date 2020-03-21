@@ -1,0 +1,33 @@
+
+.header{
+    text-align: center;
+    text-decoration: underline;
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.boardFrame{
+    display: grid;
+    grid-template-columns: 3em 3em 3em 3em 3em 3em 3em 3em;
+    padding:1em;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.gridItem{
+
+    padding:1em;
+    border:solid 2px black;
+    background-color: burlywood;
+    color:whitesmoke;
+
+}
+.blacked{
+    background-color: black;
+}
+.tealed{
+    background-color: teal;
+}
